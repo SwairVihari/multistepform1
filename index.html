@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Heleum</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <form id="regForm" action="">
+        <div class="test-heading">
+            <h1 style="color: #0061ff; font-size: 40px">Web Dev Quiz</h1>
+            <h3>Time Left : <span id="timer-minutes">00</span> : <span id="timer-seconds">00</span></h3>
+        </div>
+
+        <!-- div with class "tab" for each step in the form: -->
+        <div class="tab">
+            Q 1 : A and B together can do a specific 
+            work in 8 days. B alone can do it in 10 
+            days, then time taken by A alone is? 
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio1" name="q1" type="radio" value="1" />
+                    <label for="radio1"> 28 days </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio2" name="q1" type="radio" value="2" />
+                    <label for="radio2"> 36 days </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio3" name="q1" type="radio" value="3" />
+                    <label for="radio3"> 40 days </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio4" name="q1" type="radio" value="4" />
+                    <label for="radio4"> 32 days </label>
+                </div>
+            </div>
+
+            <!-- <div style="text-align:center;margin-top:40px;">
+            Q - <span > 1 </span> / 15
+          </div> -->
+        </div>
+
+        <div class="tab">
+            Q 2 : A, B, C together can do a work in 6 
+            days. A alone can do it in 12 days while 
+            B alone can do it in 18 days, then time 
+            taken by C is?
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio2a" name="q2" type="radio" value="1" />
+                    <label for="radio2a"> 9 days </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio2b" name="q2" type="radio" value="2" />
+                    <label for="radio2b">  18 days  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio2c" name="q2" type="radio" value="2" />
+                    <label for="radio2c"> 27 days </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio2d" name="q2" type="radio" value="2" />
+                    <label for="radio2d"> 36 days </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            Q 3 : A & B working together can do a 
+            piece of work in 12 days. B & C working 
+            together can do a piece of work in 15 
+            days. C & A working together can do a 
+            piece of work in 20 days. In how many 
+            days A can do the same work?
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio3a" name="q3" type="radio" value="1" />
+                    <label for="radio3a"> 20 </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio3b" name="q3" type="radio" value="2" />
+                    <label for="radio3b">30 </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio3c" name="q3" type="radio" value="2" />
+                    <label for="radio3c"> 40 </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio3d" name="q3" type="radio" value="2" />
+                    <label for="radio3d"> 60 </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            Q 4 : There are 6 filling pipes each can fill 
+            a tank in 16 minutes and 4 empty 
+            pipes each can empty same tank in 20 
+            min . If all pipes are open together and 
+            as a result tank is filled by 14 L/min. 
+            Find capacity of tank. 
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio4a" name="q4" type="radio" value="1" />
+                    <label for="radio4a"> 24L </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio4b" name="q4" type="radio" value="2" />
+                    <label for="radio4b"> 40L </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio4c" name="q4" type="radio" value="2" />
+                    <label for="radio4c"> 80L </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio4d" name="q4" type="radio" value="2" />
+                    <label for="radio4d"> 84L </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 5 : A tank has two pipes, one can fill it 
+            in 45 min and other can empty it in 1 
+            hr. How soon the tank will be full, if 
+            the pipes are open on alternate min. 
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio5a" name="q5" type="radio" value="1" />
+                    <label for="radio5a"> 360 min </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio5b" name="q5" type="radio" value="2" />
+                    <label for="radio5b"> 353 min </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio5c" name="q5" type="radio" value="2" />
+                    <label for="radio5c"> 180 min </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio5d" name="q5" type="radio" value="2" />
+                    <label for="radio5d"> 176 min </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 6 : A train is moving with a speed of 90 
+            km/h. Its speed is (in m/s) 
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio6a" name="q6" type="radio" value="1" />
+                    <label for="radio6a"> 25 m/s </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio6b" name="q6" type="radio" value="2" />
+                    <label for="radio6b"> 30 m/s </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio6c" name="q6" type="radio" value="2" />
+                    <label for="radio6c"> 40 m/s </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio6d" name="q6" type="radio" value="2" />
+                    <label for="radio6d"> 50 m/s </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            Q 7 : A man riding his bicycle covers 150 
+            meters in 25 seconds. What is his speed 
+            in km/hr?
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio7a" name="q7" type="radio" value="1" />
+                    <label for="radio7a"> 20km/hr </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio7b" name="q7" type="radio" value="2" />
+                    <label for="radio7b"> 21.6km/hr </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio7c" name="q7" type="radio" value="2" />
+                    <label for="radio7c"> 23km/hr </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio7d" name="q7" type="radio" value="2" />
+                    <label for="radio7d"> 25km/hr </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 8 :A train running at the speed of 60 
+            km/hr crosses a pole in 9 seconds. What 
+            is the length of the train?
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio8a" name="q8" type="radio" value="1" />
+                    <label for="radio8a"> 120 m </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio8b" name="q8" type="radio" value="2" />
+                    <label for="radio8b"> 180 m </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio8c" name="q8" type="radio" value="2" />
+                    <label for="radio8c"> 324 m </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio8d" name="q8" type="radio" value="2" />
+                    <label for="radio8d"> 150 m </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            Q 9 :A train passes two persons walking 
+            in the same direction at a speed of 3 
+            km/hr and 5 km/hr respectively in 10 
+            seconds and 11 seconds respectively. 
+            The speed of the train is
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio9a" name="q9" type="radio" value="1" />
+                    <label for="radio9a"> 28 kmph </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio9b" name="q9" type="radio" value="2" />
+                    <label for="radio9b"> 27 kmph </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio9c" name="q9" type="radio" value="2" />
+                    <label for="radio9c"> 25 kmph </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio9d" name="q9" type="radio" value="2" />
+                    <label for="radio9d"> 24 kmph </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 10 :A motorboat takes half time to cover
+            a certain distance downstream than 
+            upstream. What is the ratio between rate 
+            of current and rate of boat in still water?
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio10a" name="q10" type="radio" value="1" />
+                    <label for="radio10a"> 1:3 </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio10b" name="q10" type="radio" value="2" />
+                    <label for="radio10b"> 3:2 </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio10c" name="q10" type="radio" value="2" />
+                    <label for="radio10c"> 2:3 </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio10d" name="q10" type="radio" value="2" />
+                    <label for="radio10d"> 3:1 </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            Q 11 :
+            Given two statements, verify the conclusions and mark the 
+            answer as given below:
+
+            Statements: All locks are keys.
+            All keys are bats.
+            Conclusions:
+            I. Some bats are locks
+            II. Some locks are keys
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio11a" name="q11" type="radio" value="1" />
+                    <label for="radio11a"> conclusion I follows. </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio11b" name="q11" type="radio" value="2" />
+                    <label for="radio11b"> conclusion II follows </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio11c" name="q11" type="radio" value="2" />
+                    <label for="radio11c"> conclusions I & II follow </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio11d" name="q11" type="radio" value="2" />
+                    <label for="radio11d"> no conclusion follows. </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 12 :
+            Given two statements, verify the conclusions and mark the 
+            answer as given below:
+
+            Statements: Some cups are pots.
+            All pots are tubes.
+            Conclusions:
+            I. Some pots are cups.
+            II. Some tubes are cups.
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio12a" name="q12" type="radio" value="1" />
+                    <label for="radio11a"> conclusion I follows. </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio12b" name="q12" type="radio" value="2" />
+                    <label for="radio12b"> conclusion II follows </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio12c" name="q12" type="radio" value="2" />
+                    <label for="radio12c"> conclusions I & II follow </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio12d" name="q12" type="radio" value="2" />
+                    <label for="radio12d"> no conclusion follows. </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 13 :
+            Given two statements, verify the conclusions and mark the 
+            answer as given below:
+
+            Statements: All chalks are Dusters.
+            Some Chalks are Boards.
+            Conclusions:
+            I. Some Dusters are Boards.
+            II. Some Chalks are Dusters
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio13a" name="q13" type="radio" value="1" />
+                    <label for="radio13a"> conclusion I follows. </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio13b" name="q13" type="radio" value="2" />
+                    <label for="radio13b"> conclusion II follows </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio13c" name="q13" type="radio" value="2" />
+                    <label for="radio13c"> conclusions I & II follow </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio13d" name="q13" type="radio" value="2" />
+                    <label for="radio13d"> no conclusion follows. </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 14 :
+            B M % R 3 J @ K © D F 6 9 W 4 * N E P 2 $ A Y 5 I Q Z # 7 U G
+11. Which of the following is the sixth to the left 
+of the twentieth from the left end of the above 
+arrangement? 
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio14a" name="q14" type="radio" value="1" />
+                    <label for="radio14a"> J </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio14b" name="q14" type="radio" value="2" />
+                    <label for="radio14b"> Q </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio14c" name="q14" type="radio" value="2" />
+                    <label for="radio14c"> W </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio14d" name="q14" type="radio" value="2" />
+                    <label for="radio14d"> E </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 15 :
+            B M % R 3 J @ K © D F 6 9 W 4 * N E P 2 $ A Y 5 I Q Z # 7 U G
+ How many such consonants are there in the 
+above arrangement, each of which is 
+immediately preceded by a symbol and 
+immediately followed by a number? 
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio15a" name="q15" type="radio" value="1" />
+                    <label for="radio15a"> None </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio15b" name="q15" type="radio" value="2" />
+                    <label for="radio15b"> One </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio15c" name="q15" type="radio" value="2" />
+                    <label for="radio15c"> Two </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio15d" name="q15" type="radio" value="2" />
+                    <label for="radio15d"> Three </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 16 :
+            The diameter of the base of a 
+cylindrical drum is 35 dm and its height is 
+24 dm. It is full of kerosene. How many 
+tins, each of size 25 cm × 22 cm × 35 cm 
+can be filled with kerosene from the 
+drum?
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio16a" name="q16" type="radio" value="1" />
+                    <label for="radio16a"> 1000 </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio16b" name="q16" type="radio" value="2" />
+                    <label for="radio16b"> 1200 </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio16c" name="q16" type="radio" value="2" />
+                    <label for="radio16c"> 1400 </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio16d" name="q16" type="radio" value="2" />
+                    <label for="radio16d"> 1800 </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            Q 16 :
+            A wooden box measures 20 cm × 12 
+cm × 10 cm. the thickness of the wood is 1 
+cm. The volume of the wood required to 
+make the box is:
+
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio16a" name="q16" type="radio" value="1" />
+                    <label for="radio16a"> ) 960 cm cube
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio16b" name="q16" type="radio" value="2" />
+                    <label for="radio16b"> 900 cm cube </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio16c" name="q16" type="radio" value="2" />
+                    <label for="radio16c"> 1000 cm cube </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio16d" name="q16" type="radio" value="2" />
+                    <label for="radio16d"> 1100 cm cube </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 17 :
+            Two equal maximum sized circular 
+plates are cut-off from a circular papersheet of circumference 352 cm. The 
+circumference of each circular plate is.
+
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio17a" name="q17" type="radio" value="1" />
+                    <label for="radio17a">  176 cm 
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio17b" name="q17" type="radio" value="2" />
+                    <label for="radio17b"> 180 cm  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio17c" name="q17" type="radio" value="2" />
+                    <label for="radio17c"> 165 cm  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio17d" name="q17" type="radio" value="2" />
+                    <label for="radio17d"> 150 cm  </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            Q 18 :
+            From a tower of 80 m high, the angle 
+of depression of a bus is 30°. How far 
+is the bus from the tower
+
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio18a" name="q18" type="radio" value="1" />
+                    <label for="radio18a">  40 m
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio18b" name="q18" type="radio" value="2" />
+                    <label for="radio18b"> 138.4 m  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio18c" name="q18" type="radio" value="2" />
+                    <label for="radio18c"> 46.24 m  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio18d" name="q18" type="radio" value="2" />
+                    <label for="radio18d"> 160 m  </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 19 :
+            The angle of elevation of the sun, 
+when the length of the shadow of a 
+tree is equal to the height of the tree, 
+is:
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio19a" name="q19" type="radio" value="1" />
+                    <label for="radio19a">  30
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio19b" name="q19" type="radio" value="2" />
+                    <label for="radio19b"> 45  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio19c" name="q19" type="radio" value="2" />
+                    <label for="radio19c"> 60  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio19d" name="q19" type="radio" value="2" />
+                    <label for="radio19d"> none of these </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 20 :
+            The top of a 15 m. high tower makes 
+an angle of elevation of 60 degree 
+with the bottom of an electric pole 
+and an angle of 30 degree with the 
+top of the pole. What is the height of 
+the pole?
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio20a" name="q20" type="radio" value="1" />
+                    <label for="radio20a">  12
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio20b" name="q20" type="radio" value="2" />
+                    <label for="radio20b"> 10  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio20c" name="q20" type="radio" value="2" />
+                    <label for="radio20c"> 11  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio20d" name="q20" type="radio" value="2" />
+                    <label for="radio20d"> 5 </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 21 :
+            How many degrees will the minute-hand 
+movie, in the same time, in which the 
+hour-hand moves 10°?
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio21a" name="q21" type="radio" value="1" />
+                    <label for="radio21a">  40
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio21b" name="q21" type="radio" value="2" />
+                    <label for="radio21b"> 80  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio21c" name="q21" type="radio" value="2" />
+                    <label for="radio21c"> 120  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio21d" name="q21" type="radio" value="2" />
+                    <label for="radio21d"> 160 </label>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="tab">
+            Q 22 :
+            A boy observes the reflection of a wall 
+clock in a mirror: The time observed by 
+the boy in the mirror is 4 hours 20 
+minutes. What is the actual time shown on 
+the clock?
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio21a" name="q21" type="radio" value="1" />
+                    <label for="radio21a">   7 hours 15 minutes
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio21b" name="q21" type="radio" value="2" />
+                    <label for="radio21b"> 7 hours 50 minutes  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio21c" name="q21" type="radio" value="2" />
+                    <label for="radio21c"> 7 hours 40 minutes  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio21d" name="q21" type="radio" value="2" />
+                    <label for="radio21d"> 7 hours 35 minutes </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            Q 22 :
+            How many degrees will the minute-hand 
+move, in the same time in which the 
+second hand moves 300°?
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio22a" name="q22" type="radio" value="1" />
+                    <label for="radio22a">   6
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio22b" name="q22" type="radio" value="2" />
+                    <label for="radio22b"> 5  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio22c" name="q22" type="radio" value="2" />
+                    <label for="radio22c"> 4  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio22d" name="q22" type="radio" value="2" />
+                    <label for="radio22d"> 10 </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 23 :
+            An accurate clock shows 8 o'clock in the 
+            morning. Through how may degrees will 
+            the hour hand rotate when the clock shows 
+            2 o'clock in the afternoon?
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio23a" name="q23" type="radio" value="1" />
+                    <label for="radio23a">   144
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio23b" name="q23" type="radio" value="2" />
+                    <label for="radio23b"> 150  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio23c" name="q23" type="radio" value="2" />
+                    <label for="radio23c"> 168  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio23d" name="q23" type="radio" value="2" />
+                    <label for="radio23d"> 180 </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            Q 24 :
+            If 20th January, 2000 was a Thursday, then 
+what day of the week was 26th February, 1997?
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio24a" name="q24" type="radio" value="1" />
+                    <label for="radio24a">   Tuesday
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio24b" name="q24" type="radio" value="2" />
+                    <label for="radio24b"> Sunday  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio24c" name="q24" type="radio" value="2" />
+                    <label for="radio24c"> Wednesday  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio24d" name="q24" type="radio" value="2" />
+                    <label for="radio24d"> Thursday </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            Q 25 :
+            Which will be the next leap year after 2096?
+
+            <hr style="color: #0061ff; width: auto; margin: 1rem" />
+
+            <div class="all-options">
+                <div class="option">
+                    <input id="radio25a" name="q25" type="radio" value="1" />
+                    <label for="radio25a">   2100
+                    </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio25b" name="q25" type="radio" value="2" />
+                    <label for="radio25b"> 2102  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio25c" name="q25" type="radio" value="2" />
+                    <label for="radio25c"> 2104  </label>
+                </div>
+
+                <div class="option">
+                    <input id="radio25d" name="q25" type="radio" value="2" />
+                    <label for="radio25d"> 2108 </label>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div style="overflow: auto; margin-top: 2rem">
+            <div style="float: right">
+                <button class="button" type="button" id="nextBtn" onclick="nextPrev(1); ">
+                    Next
+                </button>
+
+                <button class="button" type="button" id="prevBtn" onclick="Prev(1); ">
+                    Prev
+                </button>
+                <!-- <button class="button" type="button" id="nextBtn" onclick="nextPrev(1); handleNo();">Next</button> -->
+            </div>
+        </div>
+
+        <!-- <div>
+          q- No <span  id="questionNumber"></span>
+        </div>
+         -->
+    </form>
+</body>
+<script src="js/script.js"></script>
+
+</html>
